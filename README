@@ -1,0 +1,20 @@
+checktimers/addtimer/vactimers
+
+Check/record what your ddo raid timer cooldowns are.
+This is a small C program using a sqlite3 database.
+I run it in cygwin on windows.
+
+To compile:
+Run "make; make install"
+
+Populate database:
+Edit sqlite-template with your toon names.
+Run "./dbcreate"
+
+To run:
+Run "./checktimers" to see the current timers
+Run "./addtimer" to add a timer
+Run "./vactimers" to delete old timers
+
+Forum thread:
+https://www.ddo.com/forums/showthread.php/361554-checktimers-sh-raid-check-script
